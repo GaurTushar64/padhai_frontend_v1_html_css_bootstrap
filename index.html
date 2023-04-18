@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boottwosite</title>
+
+    <!---------------------- Bootstrap CSS --------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--------------------- Font awesome ---------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!---------------------- My style ---------------------->
+    <link rel="stylesheet" href="styles/css/style.css">
+  </head>
+  <body>
+    <!------------------- Navbar ---------------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Assets/images/logo1.jpg" alt="LOGO" class="img-fluid" style="height:10vh;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i> </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--------------------- Container-fluid ----------------------->
+
+      <div class="container-fluid">
+        <!-------------------------- Banner ----------------------->
+        <div class="row justify-content-center" id="banner">
+          <div class="col-md-6 col-11" id="bannertext">
+            <h1>First I wanted To be <br>
+                 a veterinarian</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis dolorem repellat voluptate nemo quis.</p>
+            <button class="btn" type="button" id="banner-btn-1">Contact us</button>
+            <button class="btn" type="button" id="banner-btn-2">Our Services</button>
+          </div>
+          <div class="col-md-4 d-none d-md-block" id="bannerimg"><img src="Assets/images/dog8.jpg" alt="DOGGY" class="img-fluid" style="opacity:70%; margin-top: 70px;" ></div>
+        </div>
+        <!---------------------- Service  ----------------------->
+        <div class="row justify-content-center">
+          <div class="col-md-5 col-11" id="service-text">
+            <h1>As a veterinarian and <br>lover of animals.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias vitae id sit magni iste eveniet fugiat mollitia quibusdam necessitatibus totam?</p>
+            <button type="button" class="btn" id="service-btn">Our Service</button>
+          </div>
+          <div class="col-md-5" id="service-img">
+            <img src="Assets/images/injection.jpg" class="img-fluid" alt="DOGGY">
+          </div>
+        </div>
+        <!-------------------------- Counter  ------------------------>
+        <div class="row justify-content-center" id="counter-section">
+          <div class="col-md-3 text-center mt-5 mb-3" style="color: blue;"><i class="fa-regular fa-heart counter-icon"></i>
+          <h3>+35689 <br>
+          Happy clients </h3></div>
+          <div class="col-md-3 text-center mt-5 mb-3" style="color: blue;"><i class="fa-regular fa-hospital counter-icon"></i>
+          <h3>+50 <br>
+          Departments</h3></div>
+          <div class="col-md-3 text-center mt-5 mb-3" style="color: blue;"><i class="fa-solid fa-syringe counter-icon"></i>
+          <h3>+4500 <br>
+          Vaccinations</h3></div>
+        </div>
+        <!--------------------- Blog --------------------->
+        <div class="row justify-content-center" id="blog">
+          <div class="col-12 text-center">
+            <h1 id="blog-title">Recents Posts</h1>
+            <p id="blog-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> In numquam a, iure blanditiis necessitatibus est ab velit repudiandae! Ipsum, recusandae.</p>
+          </div>
+          <div class="col-md-3 col-11 mt-4">
+            <img src="Assets/images/w1.jpg" alt="DOGGY" class="img-fluid">
+            <div class="article-detail">
+              <h4 class="article-title">As a veterinarian and love of animals. </h4>
+              <p class="article-date">April 13,2023</p>
+              <p class="article-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet illum aliquam dolore, reiciendis ipsa provident.</p>
+              <p><a href="#" class="article-link">Read More+</a></p>
+            </div>
+          </div>
+          <div class="col-md-3 col-11 mt-4"> <img src="Assets/images/w2.jpg" alt="DOGGY" class="img-fluid">
+            <div class="article-detail">
+              <h4 class="article-title">As a veterinarian and love of animals. </h4>
+              <p class="article-date">February 13,2023</p>
+              <p class="article-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet illum aliquam dolore, reiciendis ipsa provident.</p>
+              <p><a href="#" class="article-link">Read More+</a></p>
+            </div>
+              </div>
+          <div class="col-md-3 col-11 mt-4"> 
+            <img src="Assets/images/w1.jpg" alt="DOGGY" class="img-fluid">
+            <div class="article-detail">
+              <h4 class="article-title">As a veterinarian and love of animals. </h4>
+              <p class="article-date">November 12,2019</p>
+              <p class="article-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet illum aliquam dolore, reiciendis ipsa provident.</p>
+              <p><a href="#" class="article-link">Read More+</a></p>
+            </div>
+        </div>
+
+        <!--------------------- Footer ------------------->
+        <div class="row justify-content-center text-white" id="footer">
+          <div class="col-md-3 col-11">
+            <h4>About </h4>
+            <a href="">History</a><br>
+            <a href="">Our Team</a><br>
+            <a href="">Brand Guidelines</a><br>
+            <a href="">Terms&condition</a><br>
+            <a href="">Privacy Policy</a>
+          </div>
+          <div class="col-md-2 col-11">
+            <h4>Services</h4>
+            <a href="">How to Order</a><br>
+            <a href="">Our Product</a><br>
+            <a href="">Order Status</a><br>
+            <a href="">Promo</a><br>
+            <a href="">Payment </a>
+          </div>
+          <div class="col-md-4 text-end col-11">
+            <h4>Title Here</h4>
+            <p> Lorem ipsum dolor sit amet.</p>
+            <form action="" id="footer-form">
+              <input type="text" id="footer-search-box">
+              <button type="submit" id="footer-search-submit"><i class="fa-brands fa-telegram"></i></button>
+            </form>
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <i class="fa-brands fa-facebook social-icon"></i>
+            <i class="fa-brands fa-twitter social-icon"></i>
+            <i class="fa-brands fa-whatsapp social-icon"></i>
+          </div>
+        </div>
+        <P style="text-align: center; margin-top: 50px;">Copywrite@DOGGY64.gmail.com</P>
+
+        <!----------------------- Container fluid end ----------------------->
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
